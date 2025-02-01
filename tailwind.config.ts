@@ -9,9 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        contrast: "var(--contrast)",
+        colour: "var(--colour)",
       },
+      keyframes: {
+      }
     },
   },
   plugins: [],
