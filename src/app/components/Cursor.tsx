@@ -13,7 +13,6 @@ const Cursor = () => {
         });
 
         document.addEventListener("click", () => {
-            console.log("clicked");
             if (cursor) {
                 (cursor as HTMLSpanElement).classList.add("cursor-clicked");
                 setTimeout(() => {
