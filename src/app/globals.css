@@ -31,3 +31,11 @@ body {
 .cursor-clicked {
   animation: cursor .35s forwards ease-out;
 }
+
+.group:hover .peer:not(:hover) {
+  filter: grayscale(1) blur(1px);
+}
+
+.peer:hover {
+  transform: scale(1.1);
+}

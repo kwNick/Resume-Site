@@ -24,7 +24,7 @@ const Cursor = () => {
     }, []);
 
     return (
-        <span className="cursor absolute top-[50vh] left-[50vw] w-5 h-5 bg-colour rounded-full translate-x-[-50%] translate-y-[-50%] border border-colour" />
+        <span className="cursor absolute top-[50vh] left-[50vw] w-5 h-5 bg-colour rounded-full translate-x-[-50%] translate-y-[-50%] border border-colour mix-blend-difference cursor-none" />
     )
 }
 export default Cursor
