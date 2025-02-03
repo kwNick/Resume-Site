@@ -17,7 +17,7 @@ const Cursor = () => {
                 (cursor as HTMLSpanElement).classList.add("cursor-clicked");
                 setTimeout(() => {
                     (cursor as HTMLSpanElement).classList.remove("cursor-clicked");
-                }, 350);
+                }, 250);
             }
         });
 

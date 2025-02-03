@@ -28,14 +28,14 @@ body {
 
 @keyframes cursor {
   50% {
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
   }
 
 }
 
 .cursor-clicked {
-  animation: cursor .35s forwards ease-out;
+  animation: cursor .25s forwards linear;
 }
 
 .group:hover .peer:not(:hover) {

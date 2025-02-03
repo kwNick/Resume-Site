@@ -3,12 +3,12 @@ import { navItems } from "../resources/navItems"
 
 const Navigation = () => {
     return (
-        <nav className="absolute top-[50%] right-[5%] translate-y-[-50%]">
+        <nav className="absolute top-[50%] right-[2.5%] translate-y-[-50%]">
             {/* <h1>Navigation</h1> */}
             <ul className="group text-lg lg:text-2xl flex flex-col text-center">
-                {navItems.map(link => {
+                {navItems.map((link, idx) => {
                     return (
-                        <li key={link.value} className="peer py-2 px-3 duration-500"><Link href={link.href}>{link.value}</Link></li>
+                        <li key={idx} className="peer py-2 px-3 duration-500"><Link href={link.href}>{link.value}</Link></li>
                     );
                 }
                 )}
