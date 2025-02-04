@@ -3,7 +3,7 @@ import { socialLinks } from "../resources/socialLinks"
 
 const Footer = () => {
     return (
-        <footer className="absolute bottom-[1%]  w-[25%] text-xs">
+        <footer className="absolute bottom-[1%] w-[25%] text-xs">
             <ul className="flex text-center ">
                 {socialLinks.map((link, idx) => {
                     return (
