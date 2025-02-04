@@ -8,7 +8,7 @@ const Footer = () => {
                 {socialLinks.map((link, idx) => {
                     return (
                         <li key={idx} className="w-full">
-                            <Link href={link.href}>{link.value}</Link>
+                            <Link href={link.href} target="_blank">{link.value}</Link>
                         </li>
                     )
                 })}
