@@ -29,10 +29,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className="cursor-none">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased duration-500`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased duration-500 `}
       >
+
         <ThemeProvider>
           <Cursor />
           <ThemeChanger />
@@ -43,6 +44,7 @@ export default function RootLayout({
 
           <Footer />
         </ThemeProvider>
+
       </body>
     </html>
   );

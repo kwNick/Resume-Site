@@ -3,7 +3,7 @@ import { navItems } from "../resources/navItems"
 
 const Navigation = () => {
     return (
-        <nav className="absolute top-[50%] right-[2.5%] translate-y-[-50%]">
+        <nav className="absolute top-[50%] right-[2.5%] translate-y-[-50%] z-10">
             {/* <h1>Navigation</h1> */}
             <ul className="group text-lg lg:text-2xl flex flex-col text-center">
                 {navItems.map((link, idx) => {
