@@ -1,6 +1,8 @@
 const page = () => {
     return (
-        <div>Skills</div>
+        <div className="min-w-full min-h-full">
+            Skills
+        </div>
     )
 }
 export default page

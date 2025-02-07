@@ -3,7 +3,7 @@ import ReactTypeWriter from "./components/ReactTypeWriter";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="min-w-full min-h-full">
 
       <ReactTypeWriter />
 
