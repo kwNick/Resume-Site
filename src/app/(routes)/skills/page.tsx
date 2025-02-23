@@ -1,7 +1,9 @@
 const page = () => {
     return (
         <div className="min-w-full min-h-full">
-            Skills
+            <h1>
+                Skills
+            </h1>
         </div>
     )
 }

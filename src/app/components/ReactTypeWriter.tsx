@@ -12,7 +12,7 @@ const ReactTypeWriter = () => {
                         deleteSpeed={125}
                         typeSpeed={125}
                         cursor={true}
-                        words={['Software Developer', 'Problem Solver']}
+                        words={['Software Developer', 'Problem Solver', 'Friend']}
                         loop
                     />
                 </span>

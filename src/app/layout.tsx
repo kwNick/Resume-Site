@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Cursor from "./components/Cursor";
 import NameHeader from "./components/NameHeader";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
@@ -35,7 +34,6 @@ export default function RootLayout({
       >
 
         <ThemeProvider>
-          <Cursor />
           <ThemeChanger />
           <NameHeader />
           <Navigation />
