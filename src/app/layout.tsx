@@ -6,6 +6,7 @@ import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { ThemeProvider } from "next-themes";
 import ThemeChanger from "./components/ThemeChanger";
+import Resume from "./components/Resume";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,11 +31,14 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="cursor-none">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased duration-500 w-screen h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased duration-500 w-screen h-screen overflow-x-hidden`}
       >
 
         <ThemeProvider>
-          <ThemeChanger />
+          <div className="fixed top-[1%] right-[3%] flex items-center justify-around gap-x-2">
+            <ThemeChanger />
+            <Resume />
+          </div>
           <NameHeader />
           <Navigation />
 

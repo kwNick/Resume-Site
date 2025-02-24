@@ -1,6 +1,6 @@
 const NameHeader = () => {
     return (
-        <div className="absolute translate-y-[50%] translate-x-[50%] text-lg lg:text-xl z-10">
+        <div className="fixed top-[1%] left-[3%] lg:text-lg xl:text-2xl z-10">
             <h1>
                 Nick&apos;s Portfolio Website
             </h1>

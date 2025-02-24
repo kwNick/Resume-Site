@@ -15,11 +15,11 @@ const ThemeChanger = () => {
         return null
     }
     return (
-        <div className="absolute top-[2%] left-[50%] w-fit h-fit bg-contrast">
-            <select value={theme} onChange={e => setTheme(e.target.value)} className="bg-contrast border border-colour rounded">
+        <div className="w-fit h-fit bg-transparent rounded">
+            <select value={theme} onChange={e => setTheme(e.target.value)} className="bg-transparent rounded">
                 <option value="system">System</option>
-                <option value="dark">Dark</option>
                 <option value="light">Light</option>
+                <option value="dark">Dark</option>
             </select>
         </div>
     )

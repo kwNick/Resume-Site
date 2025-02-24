@@ -1,16 +1,14 @@
-import Link from "next/link";
 import ReactTypeWriter from "./components/ReactTypeWriter";
 
 export default function Home() {
+  {/* <li className="peer py-2 px-3 duration-500" >Home</li> */ }
+  {/* Some cool Hero section landing page */ }
   return (
-    <div className="min-w-full min-h-full">
-
+    <div className="w-full min-h-full">
       <ReactTypeWriter />
 
-      <div className="flex items-center justify-center">
-        <Link href="/resume.pdf" download="Nick_Resume.pdf" target="_blank" aria-label="Download Nick's Resume" className="border rounded p-1">
-          Download Resume
-        </Link>
+      <div>
+
       </div>
     </div>
   );

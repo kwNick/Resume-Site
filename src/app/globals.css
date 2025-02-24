@@ -9,18 +9,18 @@
 }
 
 :root {
-  --contrast: #000000;
-  --colour: #00ffa0;
+  --contrast: #a5b1c2;
+  --colour: #000000;
 }
 
 [data-theme='dark'] {
-  --contrast: #00ffa0;
-  --colour: #000000;
+  --contrast: #000000;
+  --colour: #a5b1c2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --contrast: #00ffa0;
+    --contrast: #a5b1c2;
     --colour: #000000;
   }
 }

@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const ReactTypeWriter = () => {
     return (
-        <div className="h-96 flex items-center justify-center">
+        <div className="min-h-[40vh] flex items-center justify-center">
             <h1 className="text-white text-4xl">
                 Hello, I&apos;m Nick{' '}
                 <span className="text-yellow-400">
