@@ -7,11 +7,11 @@ const page = () => {
                 */}
     return (
         <div className="w-full min-h-full flex items-center justify-around">
-            <div className="w-3/5 h-fit max-h-[75vh] flex flex-col">
+            <div className="w-3/5 h-fit max-h-[75vh] flex flex-col text-center">
                 <div>
                     <h1 className="text-2xl lg:text-4xl underline">Skills</h1>
                 </div>
-                <div>
+                <div className="">
                     Education<br />
                     Graduated December 2021<br />
                     B.S. Computer Science - Florida State University, Tallahassee, Fl<br />

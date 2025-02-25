@@ -3,7 +3,7 @@ const page = () => {
     {/* Github link with explanation */ }
     return (
         <div className="w-full min-h-full flex items-center justify-around">
-            <div className="w-3/5 h-fit max-h-[75vh] flex flex-col">
+            <div className="w-3/5 h-fit max-h-[75vh] flex flex-col text-center">
                 <div>
                     <h1 className="text-2xl lg:text-4xl underline">Projects</h1>
                 </div>
