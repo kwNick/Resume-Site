@@ -1,4 +1,4 @@
-import Cursor from "./components/Cursor";
+import Cursor from "../components/Cursor";
 export default function RootTemplate({
     children,
 }: Readonly<{

@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import NameHeader from "./components/NameHeader";
-import Navigation from "./components/Navigation";
-import Footer from "./components/Footer";
+import NameHeader from "../components/NameHeader";
+import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 import { ThemeProvider } from "next-themes";
-import ThemeChanger from "./components/ThemeChanger";
-import Resume from "./components/Resume";
+import ThemeChanger from "../components/ThemeChanger";
+import Resume from "../components/Resume";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
