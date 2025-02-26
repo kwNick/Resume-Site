@@ -8,7 +8,7 @@ export default function Home() {
       <ReactTypeWriter />
 
       <div className="min-h-[45vh] flex items-center justify-center ">
-        <div className="h-full w-3/5 border border-colour rounded-lg drop-shadow-lg">
+        <div className="w-3/5 border border-colour rounded-lg drop-shadow-lg">
 
         </div>
       </div>

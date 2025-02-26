@@ -8,7 +8,9 @@ const Navigation = () => {
             <ul className="group text-lg lg:text-2xl flex sm:flex-col text-center">
                 {navItems.map((link, idx) => {
                     return (
-                        <li key={idx} className="peer py-2 px-1 duration-500"><Link href={link.href}>{link.value}</Link></li>
+                        <li key={idx} className="peer py-2 px-1 duration-500 hover:[cursor:scale-2;]">
+                            <Link href={link.href}>{link.value}</Link>
+                        </li>
                     );
                 }
                 )}
