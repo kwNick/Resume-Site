@@ -7,7 +7,8 @@ const page = () => {
                 */}
     return (
         <div className="w-full min-h-[100vh] flex items-center justify-center">
-            <div className="w-3/5 flex flex-col gap-y-5">
+            <div className="relative w-3/5 flex flex-col gap-y-5 after:absolute after:bg-colour after:h-[10%] after:w-[30%] after:bottom-[-2px] after:right-[-2px] after:z-[-20]">
+                <span className="absolute inset-0 bg-contrast z-[-10]" />
                 <div className="">
                     <h1 className="text-3xl lg:text-5xl text-center underline tracking-widest uppercase">Skills</h1>
                 </div>
