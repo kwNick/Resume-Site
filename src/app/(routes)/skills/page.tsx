@@ -6,7 +6,7 @@ const page = () => {
                  - Publications
                 */}
     return (
-        <div className="w-full h-full flex items-center justify-around">
+        <div className="w-full min-h-[100vh] flex items-center justify-center">
             <div className="w-3/5 flex flex-col gap-y-5">
                 <div className="">
                     <h1 className="text-3xl lg:text-5xl text-center underline tracking-widest uppercase">Skills</h1>

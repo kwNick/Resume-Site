@@ -2,8 +2,8 @@ const page = () => {
     {/* <li className="peer py-2 px-3 duration-500" >Projects</li> */ }
     {/* Github link with explanation */ }
     return (
-        <div className="w-full h-full flex items-center justify-around">
-            <div className="w-3/5 flex flex-col gap-y-5">
+        <div className="w-full min-h-[100vh] flex items-center justify-around">
+            <div className="w-3/5 flex flex-col  gap-y-5">
                 <div className="">
                     <h1 className="text-3xl lg:text-5xl underline text-center tracking-widest uppercase">
                         Projects
