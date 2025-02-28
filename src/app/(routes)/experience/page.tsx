@@ -6,21 +6,21 @@ const page = () => {
             <div className="relative p-3 m-3 w-3/5 flex flex-col gap-y-5 mt-10 pt-5 after:absolute after:bg-colour after:h-[10%] after:w-[30%] after:bottom-[-2px] after:right-[-2px] after:z-[-20]">
                 <span className="absolute inset-0 bg-contrast z-[-10]" />
                 <div className="">
-                    <h1 className="text-3xl lg:text-5xl underline text-center tracking-widest uppercase">Experience</h1>
+                    <h1 className="text-4xl lg:text-6xl underline text-center tracking-widest uppercase">Experience</h1>
                 </div>
-                <div className="relative p-3 m-3 flex flex-col gap-y-5 bg-contrast before:absolute before:bg-colour before:h-[30%] before:w-[20%] before:top-[-2px] before:left-[-2px] before:z-[-10] after:absolute after:bg-colour after:h-[30%] after:w-[20%] after:bottom-[-2px] after:right-[-2px] after:z-[-10]">
-                    <div className="text-lg lg:text-xl">
+                <div className="relative pt-10 p-3 mx-3 my-5 flex flex-col gap-y-5 bg-contrast before:absolute before:bg-colour before:h-[30%] before:w-[20%] before:top-[-2px] before:left-[-2px] before:z-[-10] after:absolute after:bg-colour after:h-[30%] after:w-[20%] after:bottom-[-2px] after:right-[-2px] after:z-[-10]">
+                    <div className="text-xl lg:text-2xl">
                         <p className="text-center">
                             June 2021 - December 2023<br />
                             BigLab, Florida State University - Research Implementation Lead
                         </p>
                     </div>
-                    <div>
+                    <div className="text-xl lg:text-2xl">
                         <p className="text-center">
                             - Developed a full-stack medical informatics web application that integrated data visualizations and search engine capabilities derived from the latest medical research publications.
                         </p>
                     </div>
-                    <div className="pb-10 lg:text-lg tracking-wide">
+                    <div className="pb-10 text-lg lg:text-xl tracking-wide">
                         <ul>
                             <li>Developed a robust pipeline for database imports, querying and parsing over 4 million documents, converting XML to JSON for MongoDB integration.</li>
                             <li>Enhanced application performance by optimizing runtime and page load speeds through efficient data retrieval techniques in PHP.</li>
