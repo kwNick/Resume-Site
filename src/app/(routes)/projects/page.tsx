@@ -3,8 +3,8 @@ import Link from "next/link"
 const page = () => {
 
     return (
-        <div className="w-full min-h-[100vh] flex items-center justify-around">
-            <div className="relative w-4/5 flex flex-col gap-y-5 after:absolute after:bg-colour after:h-[10%] after:w-[30%] after:bottom-[-2px] after:right-[-2px] after:z-[-20]">
+        <div className="w-full min-h-[100vh] flex items-center justify-around py-5">
+            <div className="relative py-5 px-3 m-3 w-4/5 flex flex-col gap-y-5 after:absolute after:bg-colour after:h-[10%] after:w-[30%] after:bottom-[-2px] after:right-[-2px] after:z-[-20]">
 
                 <span className="absolute inset-0 bg-contrast z-[-10]" />
                 <div className="flex flex-col items-center justify-center gap-y-4 p-3 m-3">

@@ -4,7 +4,7 @@ import ReactTypeWriter from "../components/ReactTypeWriter";
 export default function Home() {
 
   return (
-    <div className="w-full min-h-full">
+    <div className="w-full min-h-full py-5 px-3">
       <ReactTypeWriter />
 
       <div className="min-h-[45vh] flex items-center justify-center mb-10">

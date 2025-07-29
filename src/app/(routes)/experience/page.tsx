@@ -1,7 +1,7 @@
 const page = () => {
 
     return (
-        <div className="w-full flex items-center justify-center">
+        <div className="w-full flex items-center justify-center py-5 ">
             <div className="relative p-3 m-3 w-4/5 flex flex-col gap-y-5 mt-10 pt-5 after:absolute after:bg-colour after:h-[10%] after:w-[30%] after:bottom-[-2px] after:right-[-2px] after:z-[-20]">
                 <span className="absolute inset-0 bg-contrast z-[-10]" />
 

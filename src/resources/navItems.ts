@@ -11,9 +11,9 @@ export const navItems = [
         value: "Projects",
         href: "/projects",
     },
-    {
-        value: "Blog",
-        href: "/blog",
-    },
+    // {
+    //     value: "Blog",
+    //     href: "/blog",
+    // },
 
 ];
