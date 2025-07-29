@@ -1,15 +1,16 @@
 const page = () => {
-    {/* <li className="peer py-2 px-3 duration-500" >Experience</li> */ }
-    {/* BigLab and systems administration */ } //carousel for all experiences
+
     return (
         <div className="w-full flex items-center justify-center">
-            <div className="relative p-3 m-3 w-3/5 flex flex-col gap-y-5 mt-10 pt-5 after:absolute after:bg-colour after:h-[10%] after:w-[30%] after:bottom-[-2px] after:right-[-2px] after:z-[-20]">
+            <div className="relative p-3 m-3 w-4/5 flex flex-col gap-y-5 mt-10 pt-5 after:absolute after:bg-colour after:h-[10%] after:w-[30%] after:bottom-[-2px] after:right-[-2px] after:z-[-20]">
                 <span className="absolute inset-0 bg-contrast z-[-10]" />
+
                 <div className="">
                     <h1 className="text-4xl lg:text-6xl underline text-center tracking-widest uppercase">
                         Experience
                     </h1>
                 </div>
+
                 <div className="relative pt-10 p-3 mx-3 my-5 flex flex-col gap-y-5 bg-contrast before:absolute before:bg-colour before:h-[30%] before:w-[20%] before:top-[-2px] before:left-[-2px] before:z-[-10] after:absolute after:bg-colour after:h-[30%] after:w-[20%] after:bottom-[-2px] after:right-[-2px] after:z-[-10]">
                     <div className="text-xl lg:text-2xl">
                         <p className="text-center">
@@ -17,11 +18,13 @@ const page = () => {
                             BigLab, Florida State University - Lead Software Engineer
                         </p>
                     </div>
+
                     <div className="text-xl lg:text-2xl">
                         <p className="text-center">
                             - Developed a full-stack medical informatics web application that integrated data visualizations and search engine capabilities derived from the latest medical research publications.
                         </p>
                     </div>
+
                     <div className="pb-10 text-lg lg:text-xl tracking-wide">
                         <ul className="list-disc list-inside text-left flex flex-col gap-y-2">
                             <li className="">
@@ -56,6 +59,42 @@ const page = () => {
                             <li>
                                 Led successful funding acquisition efforts by leading NSF I-Corps program presentations, articulating the technical merits and research potential of the project, resulting in a significant grant that enhanced project funding and supported ongoing research development.
                             </li> */}
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="relative pt-10 p-3 mx-3 my-5 flex flex-col gap-y-5 bg-contrast before:absolute before:bg-colour before:h-[30%] before:w-[20%] before:top-[-2px] before:left-[-2px] before:z-[-10] after:absolute after:bg-colour after:h-[30%] after:w-[20%] after:bottom-[-2px] after:right-[-2px] after:z-[-10]">
+
+                    <div className="text-xl lg:text-2xl">
+                        <p className="text-center">
+                            July 2018 - December 2021<br />
+                            Systems Group, Florida State University - Systems Engineer
+                        </p>
+                    </div>
+
+                    <div className="text-xl lg:text-2xl">
+                        <p className="text-center">
+                            - Developed a full-stack medical informatics web application that integrated data visualizations and search engine capabilities derived from the latest medical research publications.
+                        </p>
+                    </div>
+
+                    <div className="pb-10 text-lg lg:text-xl tracking-wide">
+                        <ul className="list-disc list-inside text-left flex flex-col gap-y-2">
+                            <li className="">
+                                Provided technical support to 300+ students and faculty, resolving IT issues both in-person and remotely to ensure minimal downtime and user satisfaction.
+                            </li>
+                            <li>
+                                Maintained and repaired 20+ departmental printers, scanners, and copiers, reducing device service interruptions by 40%.
+                            </li>
+                            <li>
+                                Managed toner inventory and backup systems, streamlining device maintenance and improving disaster recovery response times.
+                            </li>
+                            <li>
+                                Installed and configured CentOS 7-based DNS, DHCP,  and web servers, enhancing lab network reliability.
+                            </li>
+                            <li>
+                                Setup and maintained over 50 lab workstations, including custom CAT5e cable fabrication and software provisioning, reducing setup time by 100%.
+                            </li>
                         </ul>
                     </div>
                 </div>
