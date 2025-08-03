@@ -15,11 +15,11 @@ const ThemeChanger = () => {
         return null
     }
     return (
-        <div className="hidden sm:block w-fit h-fit bg-transparent rounded">
-            <select value={theme} onChange={e => setTheme(e.target.value)} className="bg-transparent rounded">
-                <option value="system">System</option>
-                <option value="light">Light</option>
-                <option value="dark">Dark</option>
+        <div className="hidden sm:block w-fit h-fit bg-transparent rounded ">
+            <select value={theme} onChange={e => setTheme(e.target.value)} className="bg-transparent rounded p-3 border border-white text-white cursor-pointer">
+                <option value="system" className="border-colour text-colour">System</option>
+                <option value="light" className="border-colour text-colour">Light</option>
+                <option value="dark" className="border-colour text-colour">Dark</option>
             </select>
         </div>
     )

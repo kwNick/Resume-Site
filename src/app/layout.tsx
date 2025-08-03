@@ -21,11 +21,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className="cursor-none">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased duration-500 w-screen min-h-screen overflow-x-hidden`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased duration-500 w-screen min-h-screen overflow-x-hidden bg-contrast`}
       >
 
         <ThemeProvider>
-          <div className="fixed top-[1%] right-[3%] flex items-center justify-around gap-x-2">
+          <div className="fixed top-[1%] right-[3%] flex items-center justify-around gap-x-8">
             <ThemeChanger />
             <Resume />
           </div>

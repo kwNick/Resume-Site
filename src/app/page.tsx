@@ -4,13 +4,13 @@ import ReactTypeWriter from "../components/ReactTypeWriter";
 export default function Home() {
 
   return (
-    <div className="w-full min-h-full py-5 px-3 flex flex-col items-center justify-center">
+    <div className="w-full min-h-full flex flex-col items-center justify-center gap-y-10">
       <ReactTypeWriter />
 
       <div className="w-full min-h-[65vh] flex items-center justify-center mb-10">
-        <div className="p-3 w-3/4 flex flex-col gap-y-5 rounded-lg drop-shadow-lg">
+        <div className="p-3 w-3/4 flex flex-col gap-y-8 rounded-lg drop-shadow-lg">
 
-          <div className="p-3 w-full min-h-[35vh] flex flex-col items-center justify-center gap-y-8">
+          <div className="p-3 w-full min-h-[35vh] text-colour flex flex-col items-center justify-center gap-y-8">
             <h1 className="text-3xl font-bold text-center">
               Welcome to My Portfolio
             </h1>
@@ -53,7 +53,7 @@ export default function Home() {
             <p className="pb-5 underline tracking-widest uppercase">
               Publications
             </p>
-            <ul className="p-5 flex gap-y-8 flex-wrap items-center justify-center">
+            <ul className="p-5 flex gap-y-14 flex-wrap items-center justify-center">
               <li>
                 &ldquo;
                 <Link href="https://openproceedings.org/2023/conf/edbt/3-paper-147.pdf" target="_blank" rel="noopener noreferrer" className="underline">

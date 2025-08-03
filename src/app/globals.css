@@ -8,6 +8,7 @@
   box-sizing: border-box;
 }
 
+/* css variables */
 :root {
   --contrast: #a5b1c2;
   --colour: #000000;
