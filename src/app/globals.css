@@ -21,13 +21,13 @@
   --accent: #d991ef;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --contrast: #a5b1c2;
     --colour: #222222;
     --accent: #d991ef;
   }
-}
+} */
 
 body {
   color: var(--colour);
@@ -35,13 +35,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body:has(a:hover) .cursor {
+/* When cursor hovers a link or button effect*/
+body:has(a:hover, select:hover, button:hover) .cursor {
   width: 40px;
   height: 40px;
   background: transparent;
   transition: width 0.3s ease, height 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Cursor to revert back to normal with transition */
 .cursor {
   width: 20px;
   height: 20px;
