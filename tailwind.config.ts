@@ -11,6 +11,7 @@ export default {
       colors: {
         contrast: "var(--contrast)",
         colour: "var(--colour)",
+        accent: "var(--accent)",
       },
       keyframes: {
       }

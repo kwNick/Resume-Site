@@ -8,7 +8,7 @@ const Navigation = () => {
             <ul className="w-full group text-lg lg:text-2xl flex sm:flex-col text-center gap-y-8">
                 {navItems.map((link, idx) => {
                     return (
-                        <li key={idx} className="peer py-2 px-1 duration-500 text-white">
+                        <li key={idx} className="peer py-2 px-1 duration-500 text-colour">
                             <Link href={link.href}>{link.value}</Link>
                         </li>
                     );
