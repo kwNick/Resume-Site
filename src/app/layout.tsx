@@ -29,6 +29,7 @@ export default function RootLayout({
             <ThemeChanger />
             <Resume />
           </div>
+          
           <NameHeader />
           <Navigation />
 
